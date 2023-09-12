@@ -10,6 +10,6 @@ INSTALLATION:
 
 RUNNING:
 
-      - In order to run the program, I personally use and recommend the commond prompt "g++ FILENAME.cpp" to compile and "./a.out" to run
+      - In order to run the program, I personally use and recommend the command prompt "g++ FILENAME.cpp" to compile and "./a.out" to run
       - Once running, follow the instructions prompted by the program, press the "Enter" key to commit any input
       
