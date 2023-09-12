@@ -1,7 +1,7 @@
 INSTALLATION: 
 
       - Make sure you have an enviornment on your local machine that is able to compile and run C++.
-      - Open a new workspace and create five files:
+      - Open a new workspace and create five files, and copy and paste the content into them from the files above in which share the same name
             1. main.cpp (C++ source code file)
             2. blackjack.h (C++ header file for blackjack)
             3. deckOfCards.txt (text file for a deck of cards)
