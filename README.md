@@ -6,6 +6,7 @@ INSTALLATION:
             2. blackjack.h (C++ header file for blackjack)
             3. deckOfCards.txt (text file for a deck of cards)
             4. roulette.h (C++ header file for roulette)
+            lamo
             5. roulette.txt (text file showing color/number for a roulette spinner)
 
 RUNNING:
