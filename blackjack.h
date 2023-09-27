@@ -94,7 +94,7 @@ void hitOrStand(int &descision, int dbl, int &ovrMoney, int betChoice) {
 
 
 
-// if user want's to keep playing with same shoot (same decks), they can quickly play another hand
+// if user want's to keep playing with same shoe (same decks), they can quickly play another hand
 void prePostGame(int &ovrMoney, vector<Card> deckVec, int &vecIndex) {
     int game = 2; // blackjack
     cout << endl;
