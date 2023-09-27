@@ -99,11 +99,11 @@ void prePostGame(int &ovrMoney, vector<Card> deckVec, int &vecIndex) {
     int game = 2; // blackjack
     cout << endl;
     if (vecIndex > 120) {
-        cout << "You're almost out of cards and it is time for a new shoot" << endl;
+        cout << "You're almost out of cards and it is time for a new shoe" << endl;
         cout << "You are being taken to the home menu, you may return with a newly shuffled deck" << endl;
         postGameOptions(ovrMoney, game);
     }
-    cout << "Press R to quick-play again with same shoot" << endl;
+    cout << "Press R to quick-play again with same shoe" << endl;
     cout << "Press M to see post-game menu, you may return with a newly shuffled deck" << endl;
     while(1) {
         cout << "Your Choice --> ";
