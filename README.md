@@ -7,6 +7,7 @@ INSTALLATION:
             3. deckOfCards.txt (text file for a deck of cards)
             4. roulette.h (C++ header file for roulette)
             5. roulette.txt (text file showing color/number for a roulette spinner)
+            6. baccarat.h (C++ header file for baccarat)
 
 RUNNING:
 
