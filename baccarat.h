@@ -150,6 +150,8 @@ void readFile2(vector<BaccaratCard> &deckVec) {
 }
 
 
+
+// calculates the points for a hand at any given state of the game
 int handTotal(vector<BaccaratCard> hand) {
         int total = 0;
         for (int i = 0; i < hand.size(); i++ ) {
@@ -168,6 +170,7 @@ int handTotal(vector<BaccaratCard> hand) {
 
 
 
+// evaluates if the player needs to draw a third card or not 
 bool evaluatePlayerDraw(vector<BaccaratCard> hand) {
     if (handTotal(hand) <= 5) {
             return true; // have to draw 1 more
@@ -181,6 +184,8 @@ bool evaluatePlayerDraw(vector<BaccaratCard> hand) {
 }
 
 
+
+// outputs the winner of the game based on score 
 string whoWon(vector<BaccaratCard> hand1, vector<BaccaratCard> hand2) {
         if (handTotal(hand1) > handTotal(hand2)) {
             return "Player";
@@ -196,6 +201,8 @@ string whoWon(vector<BaccaratCard> hand1, vector<BaccaratCard> hand2) {
 }
 
 
+
+// evaluates if the banker needs to draw a third card, based on the players third card value 
 bool evaluateBankerDraw(vector<BaccaratCard> hand, BaccaratCard playerCard) { // playerCard = players third 
     if (hand.size() == 3) { // already has 3 cards
         return false;
@@ -277,6 +284,7 @@ void prePostGame2(int &ovrMoney, vector<BaccaratCard> deckVec, int &vecIndex) {
 
 
 
+// plays the game (Baccarat)
 void Game2(int &ovrMoney, vector<BaccaratCard> deckVec, int vecIndex) {
     cout << "Enter the amount you would like to bet (Max bet: $2000)" << endl;
     int betChoice = 0;
