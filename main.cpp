@@ -10,6 +10,8 @@
 #include <sstream>
 #include "roulette.h"
 #include "blackjack.h"
+#include "baccarat.h"
+// #include "poker.h"
 using namespace std;
 
 
@@ -18,6 +20,8 @@ void displayMenu() {
     cout << "Hello! Welcome to the Virtual Casino!" << endl;
     cout << "Press '1' to play BlackJack" << endl;
     cout << "Press '2' to play Roulette" << endl;
+    cout << "Press '3' to play Poker (UNDER CONSTRUCTION)" << endl;
+    cout << "Press '4' to play Baccarat" << endl; 
     cout << "Press 'Q' to quit" << endl;
 }
 
@@ -37,6 +41,14 @@ void mainMenu(int &ovrMoney) {
         }
         else if ((userChoice[0] == '2') && (userChoice.size() == 1)) {
             playRoulette(ovrMoney);
+            break;
+        }
+        else if ((userChoice[0] == '3') && (userChoice.size() == 1)) {
+            cout << "Poker is not ready yet, please select another game" << endl;
+            continue;
+        }
+        else if ((userChoice[0] == '4') && (userChoice.size() == 1)) {
+            playBaccarat(ovrMoney);
             break;
         }
         else if ((userChoice[0] == 'Q') && (userChoice.size() == 1)) {
@@ -70,6 +82,13 @@ void postGameOptions(int &ovrMoney, int game) { // 1 Roulette, 2 Blackjack
             }
             if (game == 2) {
                 playBlackjack(ovrMoney);
+            }
+            // this will never be reached, just for my abstraction 
+            if (game == 3) {
+                cout << "Poker is not ready yet, please select another game" << endl;
+            }
+            if (game == 4) {
+                playBaccarat(ovrMoney);
             }
         }
         else if ((userChoice[0] == 'M') && (userChoice.size() == 1)) {
