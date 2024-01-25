@@ -2,7 +2,7 @@ INSTALLATION:
 
       - Make sure you have an enviornment on your local machine that is able to compile and run C++.
       - Download the zip file and open them on said enviornment
-      - Alternatively, you can simply clone the contents of this repository
+      - Alternatively, you can simply clone the content of this repository
 
 RUNNING:
 
