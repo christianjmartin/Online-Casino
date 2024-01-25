@@ -1,13 +1,8 @@
 INSTALLATION: 
 
       - Make sure you have an enviornment on your local machine that is able to compile and run C++.
-      - Open a new workspace and create six files, and copy and paste the content into them from the files above in which share the same name
-            1. main.cpp (C++ source code file)
-            2. blackjack.h (C++ header file for blackjack)
-            3. deckOfCards.txt (text file for a deck of cards)
-            4. roulette.h (C++ header file for roulette)
-            5. roulette.txt (text file showing color/number for a roulette spinner)
-            6. baccarat.h (C++ header file for baccarat)
+      - Download the zip file and open them on said enviornment
+      - Alternatively, you can simply clone the contents of this repository
 
 RUNNING:
 
